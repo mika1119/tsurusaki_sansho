@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/* メディアクエリブレークポイント
+-------------------------------*/
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+/* カラー
+-------------------------------*/
+$text_color: #383838;
+
+$white: #FFFFFF;
+$black: #000000;
+$gray: #CCCCCC;
+
+/* min-width
+-------------------------------*/
+@mixin display_sm {
+  @media (min-width: $sm) {
+    @content;
+  }
+}
+
+@mixin display_md {
+  @media (min-width: $md) {
+    @content;
+  }
+}
+
+@mixin display_lg {
+  @media (min-width: $lg) {
+    @content;
+  }
+}
+
+@mixin display_xl {
+  @media (min-width: $xl) {
+    @content;
+  }
+}
+
+/* layout
+-------------------------------*/
+@mixin max_width {
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* 共通部分
+------------------------------- */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 24px;
+  font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  color: $text_color;
+}
+
+a {
+  color: $text_color;
+  text-decoration: none;
+}

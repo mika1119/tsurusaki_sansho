@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* メディアクエリブレークポイント
+-------------------------------*/
+/* カラー
+-------------------------------*/
+/* min-width
+-------------------------------*/
+/* layout
+-------------------------------*/
+/* 共通部分
+------------------------------- */
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 24px;
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  color: #383838;
+}
+
+a {
+  color: #383838;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
