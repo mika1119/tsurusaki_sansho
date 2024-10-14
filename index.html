@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link rel="stylesheet" href="style.css">
 
+    <!-- Javascript -->
+    <script src="./js/header.js"></script>
+
     <!-- GoogleFont -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -64,20 +67,6 @@
 
     </div>
     <!-- /wrapper -->
-
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-        const btn = document.getElementById("headerBtn");
-        const lines = document.getElementsByClassName("header-btn__line");
-        console.log(lines);
-
-        btn.addEventListener("click", function() {
-          for (let i = 0; i < lines.length; i++) {
-            lines[i].classList.toggle("open");
-          }
-        })
-      });
-    </script>
   </body>
 </html>
 
