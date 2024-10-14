@@ -23,6 +23,15 @@
 
       <!-- header -->
       <header id="header" class="header">
+        <div class="header-group">
+          <img src="images/logo.png" class="header-group__logo" alt="ヘッダーのロゴ"></img>
+
+          <div id="headerBtn" class="header-btn">
+            <span class="header-btn__line"></span>
+            <span class="header-btn__line"></span>
+            <span class="header-btn__line"></span>
+          </div>
+        </div>
       </header>
       <!-- /header -->
 
@@ -55,5 +64,21 @@
 
     </div>
     <!-- /wrapper -->
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        const btn = document.getElementById("headerBtn");
+        const lines = document.getElementsByClassName("header-btn__line");
+        console.log(lines);
+
+        btn.addEventListener("click", function() {
+          for (let i = 0; i < lines.length; i++) {
+            lines[i].classList.toggle("open");
+          }
+        })
+      });
+    </script>
   </body>
 </html>
+
+
