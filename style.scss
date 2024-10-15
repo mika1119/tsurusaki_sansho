@@ -115,7 +115,7 @@ a {
     height: 2px;
     background-color: $text_color;
     border-radius: 4px;
-    transition-duration: 0.2s;
+    transition-duration: 0.4s;
     &:nth-of-type(1) {
       &.open {
         background-color: $white;
@@ -147,7 +147,7 @@ a {
   top: 0;
   right: -60%;
   z-index: 900;
-  transition-duration: 0.2s;
+  transition-duration: 0.4s;
   padding: 8vh 0 0 0;
   &.open {
     right: 0;
