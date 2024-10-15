@@ -139,6 +139,9 @@ a {
       }
     }
   }
+  @include display_md {
+    display: none;
+  }
 }
 
 /* ナビゲーション

@@ -93,6 +93,11 @@ a {
   background-color: #FFFFFF;
   transform: translate(0, -10px) rotate(45deg);
 }
+@media (min-width: 768px) {
+  .header-btn {
+    display: none;
+  }
+}
 
 /* ナビゲーション
 ------------------------------- */
