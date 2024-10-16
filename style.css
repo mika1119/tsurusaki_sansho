@@ -115,16 +115,33 @@ a {
 .nav.open {
   right: 0;
 }
+@media (min-width: 768px) {
+  .nav {
+    max-width: 540px;
+    background: initial;
+    position: initial;
+    padding: 0;
+  }
+}
 .nav__list {
   width: 100%;
-  height: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .nav__list {
+    flex-direction: row;
+    align-items: center;
+  }
 }
 .nav__link {
   width: 100%;
   height: auto;
-  display: block;
+  text-align: center;
   color: #FFFFFF;
   border-top: 0.5px solid #FFFFFF;
+  padding: 4vh 0;
 }
 .nav__link:last-child {
   border-bottom: 0.5px solid #FFFFFF;
@@ -133,11 +150,18 @@ a {
   background-color: #4d4d4d;
   transition: all 0.5s ease-in-out;
 }
-.nav__item {
-  width: 100%;
-  height: auto;
-  text-align: center;
-  padding: 4vh 0;
+@media (min-width: 768px) {
+  .nav__link {
+    color: #383838;
+    border-top: none;
+    padding: 0;
+  }
+  .nav__link:last-child {
+    border-bottom: none;
+  }
+  .nav__link:hover {
+    background-color: initial;
+  }
 }
 
 /* メインビジュアル
