@@ -266,6 +266,14 @@ a {
   flex-direction: column;
   gap: 4vh;
 }
+@media (min-width: 768px) {
+  .panel {
+    flex-direction: row;
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
 
 /* フッター
 ------------------------------- */

@@ -307,6 +307,10 @@ a {
   display: flex;
   flex-direction: column;
   gap: 4vh;
+  @include display_md {
+    flex-direction: row;
+    @include max_width;
+  }
 }
 
 /* フッター
