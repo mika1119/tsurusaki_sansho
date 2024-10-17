@@ -181,6 +181,27 @@ a {
   filter: grayscale(100%);
 }
 
+/* メイン
+------------------------------- */
+.main {
+  width: 100%;
+  height: auto;
+}
+
+/* キャッチコピー
+------------------------------- */
+.catch {
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.catch__text {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
 /* フッター
 ------------------------------- */
 .footer {
