@@ -216,6 +216,22 @@ a {
   font-weight: 700;
 }
 
+/* タイトル
+------------------------------- */
+.title {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 6vh 0;
+}
+.title__en {
+  color: #CCCCCC;
+}
+.title__ja {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
 /* フッター
 ------------------------------- */
 .footer {

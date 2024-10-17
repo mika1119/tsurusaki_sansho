@@ -258,6 +258,22 @@ a {
   }
 }
 
+/* タイトル
+------------------------------- */
+.title {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 6vh 0;
+  &__en {
+    color: $gray;
+  }
+  &__ja {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+}
+
 /* フッター
 ------------------------------- */
 .footer {
