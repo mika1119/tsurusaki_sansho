@@ -232,7 +232,9 @@ a {
 
 .text-area {
   width: 100%;
+  max-width: 540px;
   height: auto;
+  margin: 0 auto;
   &__heading {
     width: 100%;
     height: auto;

@@ -190,7 +190,9 @@ a {
 
 .text-area {
   width: 100%;
+  max-width: 540px;
   height: auto;
+  margin: 0 auto;
 }
 .text-area__heading {
   width: 100%;
