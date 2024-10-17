@@ -74,12 +74,6 @@ a {
   text-decoration: none;
 }
 
-.section {
-  width: 100%;
-  height: 20vh;
-  padding: 0 4%;
-}
-
 /* ヘッダー
 ------------------------------- */
 .header {
@@ -228,6 +222,26 @@ a {
 .main {
   width: 100%;
   height: auto;
+}
+
+.section {
+  width: 100%;
+  height: auto;
+  padding: 0 4%;
+}
+
+.text-area {
+  width: 100%;
+  height: auto;
+  &__heading {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 2vh 0;
+  }
+  &__text {
+    line-height: 3rem;
+  }
 }
 
 /* キャッチコピー
