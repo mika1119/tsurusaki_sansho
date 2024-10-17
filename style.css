@@ -231,6 +231,29 @@ a {
   font-size: 2rem;
   font-weight: 700;
 }
+.title__ja_white {
+  color: #FFFFFF;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://junpei-sugiyama.com/wp-content/uploads/2021/01/dog01.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+}
+.bg::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: inherit;
+  filter: brightness(50%) grayscale(100%);
+  z-index: -1;
+}
 
 /* フッター
 ------------------------------- */
