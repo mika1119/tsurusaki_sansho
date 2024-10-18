@@ -176,7 +176,7 @@ a {
   filter: grayscale(100%);
 }
 
-/* メイン
+/* メイン（共通部分）
 ------------------------------- */
 .main {
   width: 100%;
@@ -193,6 +193,26 @@ a {
   width: 100%;
   height: auto;
   padding: 4vh;
+}
+
+.flex {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+}
+@media (min-width: 768px) {
+  .flex {
+    flex-direction: row;
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+.flex__item {
+  width: 100%;
+  height: auto;
 }
 
 .text-area {
@@ -268,24 +288,6 @@ a {
   background: inherit;
   filter: brightness(50%) grayscale(100%);
   z-index: -1;
-}
-
-/* パネル
-------------------------------- */
-.panel {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 4vh;
-}
-@media (min-width: 768px) {
-  .panel {
-    flex-direction: row;
-    max-width: 1140px;
-    margin-right: auto;
-    margin-left: auto;
-  }
 }
 
 .gallery {

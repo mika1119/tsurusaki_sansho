@@ -218,7 +218,7 @@ a {
   }
 }
 
-/* メイン
+/* メイン（共通部分）
 ------------------------------- */
 .main {
   width: 100%;
@@ -235,6 +235,22 @@ a {
   width: 100%;
   height: auto;
   padding: 4vh;
+}
+
+.flex {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+  @include display_md {
+    flex-direction: row;
+    @include max_width;
+  }
+  &__item {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .text-area {
@@ -309,20 +325,6 @@ a {
     background: inherit;
     filter: brightness(50%) grayscale(100%);
     z-index: -1;
-  }
-}
-
-/* パネル
-------------------------------- */
-.panel {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 4vh;
-  @include display_md {
-    flex-direction: row;
-    @include max_width;
   }
 }
 
