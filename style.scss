@@ -314,6 +314,23 @@ a {
   }
 }
 
+.gallery {
+  width: 100%;
+  height: auto;
+  &__list {
+    transition-timing-function: linear;
+  }
+  &__item {
+    & img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      filter: grayscale(100%);
+      padding: 0 6px;
+    }
+  }
+}
+
 /* フッター
 ------------------------------- */
 .footer {

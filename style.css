@@ -276,6 +276,22 @@ a {
   }
 }
 
+.gallery {
+  width: 100%;
+  height: auto;
+}
+.gallery__list {
+  transition-timing-function: linear;
+}
+.gallery__item img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: grayscale(100%);
+  padding: 0 6px;
+}
+
 /* フッター
 ------------------------------- */
 .footer {
