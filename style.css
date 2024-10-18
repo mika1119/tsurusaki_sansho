@@ -189,6 +189,12 @@ a {
   padding: 0 4%;
 }
 
+.space {
+  width: 100%;
+  height: auto;
+  padding: 4vh;
+}
+
 .text-area {
   width: 100%;
   max-width: 540px;
