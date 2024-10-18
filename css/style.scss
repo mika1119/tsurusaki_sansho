@@ -343,6 +343,29 @@ a {
   }
 }
 
+/* 会社概要
+------------------------------- */
+.table {
+  width: 100%;
+  height: auto;
+  &__tr {
+    width: 100%;
+    height: auto;
+  }
+  &__th {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: lighten($black, 90%);
+    padding: 2vh 0;
+  }
+  &__td {
+    width: 100%;
+    height: auto;
+    padding: 2vh 4%;
+  }
+}
+
 /* フッター
 ------------------------------- */
 .footer {

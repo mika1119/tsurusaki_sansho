@@ -304,6 +304,29 @@ a {
   padding: 0 6px;
 }
 
+/* 会社概要
+------------------------------- */
+.table {
+  width: 100%;
+  height: auto;
+}
+.table__tr {
+  width: 100%;
+  height: auto;
+}
+.table__th {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: #e6e6e6;
+  padding: 2vh 0;
+}
+.table__td {
+  width: 100%;
+  height: auto;
+  padding: 2vh 4%;
+}
+
 /* フッター
 ------------------------------- */
 .footer {
