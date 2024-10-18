@@ -241,9 +241,15 @@ a {
     height: auto;
     text-align: center;
     padding: 2vh 0;
+    &_white {
+      color: $white;
+    }
   }
   &__text {
     line-height: 3rem;
+    &_white {
+      color: $white;
+    }
   }
 }
 

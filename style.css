@@ -201,8 +201,14 @@ a {
   text-align: center;
   padding: 2vh 0;
 }
+.text-area__heading_white {
+  color: #FFFFFF;
+}
 .text-area__text {
   line-height: 3rem;
+}
+.text-area__text_white {
+  color: #FFFFFF;
 }
 
 /* キャッチコピー
