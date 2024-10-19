@@ -329,6 +329,51 @@ a {
   padding: 2vh 4%;
 }
 
+/* 保有車両
+------------------------------- */
+.card {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+}
+@media (min-width: 576px) {
+  .card {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0;
+  }
+}
+
+.card-item {
+  width: 100%;
+  height: auto;
+}
+@media (min-width: 576px) {
+  .card-item {
+    width: 48%;
+  }
+}
+@media (min-width: 992px) {
+  .card-item {
+    width: 30%;
+  }
+}
+.card-item__image {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: grayscale(100%);
+}
+.card-item__text {
+  width: 100%;
+  height: auto;
+  font-weight: 700;
+}
+
 /* フッター
 ------------------------------- */
 .footer {

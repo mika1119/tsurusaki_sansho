@@ -368,6 +368,44 @@ a {
   }
 }
 
+/* 保有車両
+------------------------------- */
+.card {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+  @include display_sm {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0;
+  }
+}
+
+.card-item {
+  width: 100%;
+  height: auto;
+  @include display_sm {
+    width: 48%;
+  }
+  @include display_lg {
+    width: 30%;
+  }
+  &__image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    filter: grayscale(100%);
+  }
+  &__text {
+    width: 100%;
+    height: auto;
+    font-weight: 700;
+  }
+}
+
 /* フッター
 ------------------------------- */
 .footer {
