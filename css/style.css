@@ -338,6 +338,32 @@ a {
 
 /* 事業内容
 ------------------------------- */
+.list {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8vh;
+}
+
+.list-item {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.list-item__number {
+  font-size: 6rem;
+  line-height: 6rem;
+  color: #e6e6e6;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+.list-item__text {
+  font-weight: 700;
+  padding: 0 0 0 20px;
+}
+
 /* 保有車両
 ------------------------------- */
 .card {
