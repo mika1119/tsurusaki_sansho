@@ -340,16 +340,32 @@ a {
 ------------------------------- */
 .list {
   width: 100%;
+  max-width: 540px;
   height: auto;
   display: flex;
   flex-direction: column;
   gap: 8vh;
+  margin: 4vh auto;
+}
+@media (min-width: 768px) {
+  .list {
+    max-width: 700px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 8vh 0;
+  }
 }
 
 .list-item {
   width: 100%;
   height: auto;
   position: relative;
+}
+@media (min-width: 768px) {
+  .list-item {
+    width: 46%;
+  }
 }
 .list-item__number {
   font-size: 6rem;
