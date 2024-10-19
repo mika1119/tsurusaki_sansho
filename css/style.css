@@ -49,17 +49,22 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-.header-group__logo {
+.header-group__link {
   width: 50%;
   max-width: 280px;
   height: auto;
+  display: flex;
+  align-items: center;
   padding: 0 0 0 4%;
 }
 @media (min-width: 768px) {
-  .header-group__logo {
-    width: 30%;
+  .header-group__link {
     padding: 0 0 0 2%;
   }
+}
+.header-group__logo {
+  width: 100%;
+  height: auto;
 }
 
 .header-btn {
