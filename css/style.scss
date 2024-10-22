@@ -404,11 +404,11 @@ a {
   height: auto;
   text-align: center;
   @include display_md {
-    width: 46%;
+    width: 48%;
   }
   &__text {
+    font-size: 1.8rem;
     font-weight: 700;
-    padding: 0 0 0 20px;
   }
 }
 

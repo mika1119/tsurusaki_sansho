@@ -369,12 +369,12 @@ a {
 }
 @media (min-width: 768px) {
   .list-item {
-    width: 46%;
+    width: 48%;
   }
 }
 .list-item__text {
+  font-size: 1.8rem;
   font-weight: 700;
-  padding: 0 0 0 20px;
 }
 
 /* 保有車両
