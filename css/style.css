@@ -365,20 +365,12 @@ a {
 .list-item {
   width: 100%;
   height: auto;
-  position: relative;
+  text-align: center;
 }
 @media (min-width: 768px) {
   .list-item {
     width: 46%;
   }
-}
-.list-item__number {
-  font-size: 6rem;
-  line-height: 6rem;
-  color: #e6e6e6;
-  position: absolute;
-  bottom: 0;
-  z-index: -1;
 }
 .list-item__text {
   font-weight: 700;

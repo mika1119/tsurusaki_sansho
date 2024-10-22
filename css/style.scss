@@ -402,17 +402,9 @@ a {
 .list-item {
   width: 100%;
   height: auto;
-  position: relative;
+  text-align: center;
   @include display_md {
     width: 46%;
-  }
-  &__number {
-    font-size: 6rem;
-    line-height: 6rem;
-    color: darken($white, 10%);
-    position: absolute;
-    bottom: 0;
-    z-index: -1;
   }
   &__text {
     font-weight: 700;
