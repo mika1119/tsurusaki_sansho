@@ -337,6 +337,11 @@ a {
   &_03 {
     background-image: url("../images/car_05.webp");
   }
+  &__link {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
 }
 
 .gallery {

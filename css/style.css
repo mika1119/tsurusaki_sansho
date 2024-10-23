@@ -300,6 +300,11 @@ a {
 .bg_03 {
   background-image: url("../images/car_05.webp");
 }
+.bg__link {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 .gallery {
   width: 100%;
