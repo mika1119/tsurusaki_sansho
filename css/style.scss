@@ -61,6 +61,7 @@ html {
   font-size: 62.5%;
   line-height: 24px;
   font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -491,5 +492,30 @@ a {
   align-items: center;
   &__text {
     font-size: 1.2rem;
+  }
+}
+
+/* スクロールボタン
+------------------------------- */
+.page-top {
+  width: 8vh;
+  height: 8vh;
+  position: fixed;
+  right: 20px;
+  bottom: 80px;
+  background-color: darken($white, 40%);
+  border-radius: 1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 90;
+  opacity: 0;
+  transition: 0.4s;
+  &__arrow {
+    width: 20px;
+    height: 20px;
+    border-top: 2px solid $white;
+    border-right: 2px solid $white;
+    transform: translateY(20%) rotate(-45deg);
   }
 }
