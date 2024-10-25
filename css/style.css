@@ -25,6 +25,7 @@ body {
   font-size: 1.6rem;
   font-family: "Noto Serif JP", serif;
   color: #383838;
+  text-align: justify;
 }
 
 a {
@@ -228,7 +229,7 @@ a {
   width: 100%;
   height: auto;
   text-align: center;
-  padding: 2vh 0;
+  padding: 4vh 0;
 }
 .text-area__heading_white {
   color: #FFFFFF;
@@ -238,6 +239,12 @@ a {
 }
 .text-area__text_white {
   color: #FFFFFF;
+}
+
+@media (min-width: 768px) {
+  .br {
+    display: none;
+  }
 }
 
 /* キャッチコピー
