@@ -361,6 +361,12 @@ a {
   height: auto;
   padding: 2vh 4%;
 }
+.table__td_text-small {
+  font-size: 1.2rem;
+}
+.table__link {
+  text-decoration: underline;
+}
 
 /* 事業内容
 ------------------------------- */
