@@ -326,7 +326,6 @@ a {
 .bg {
   width: 100%;
   height: 100%;
-  background-image: url("../images/car_01.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -341,14 +340,14 @@ a {
     filter: brightness(60%) grayscale(100%);
     z-index: -1;
   }
-  &_01 {
-    background-image: url("../images/car_03.webp");
+  &_company {
+    background-image: url("../images/company_01.webp");
   }
-  &_02 {
-    background-image: url("../images/car_04.webp");
+  &_service {
+    background-image: url("../images/service_03.webp");
   }
-  &_03 {
-    background-image: url("../images/car_05.webp");
+  &_area {
+    background-image: url("../images/area_01.webp");
   }
   &__link {
     width: 100%;
