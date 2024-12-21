@@ -25,4 +25,23 @@ document.addEventListener("DOMContentLoaded", function() {
       },
     },
   });
+
+  const galleryReverseSwiper = new Swiper(".gallery-reverse", {
+    loop: true,
+    slidesPerView: 2,
+    speed: 10000,
+    allowTouchMove: false,
+    autoplay: {
+      delay: 0,
+      reverseDirection: true,
+    },
+    breakpoints: {
+      576: {
+        slidesPerView: 3,
+      },
+      992: {
+        slidesPerView: 4,
+      },
+    },
+  });
 })
